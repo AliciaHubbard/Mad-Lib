@@ -1,0 +1,70 @@
+/*colors:
+white: #F8FAFA
+gray: #AFB9C8
+yellow: #F5BA31
+pink: #C17978
+purple: #6A407C
+black:  #3C4858
+*/
+
+.App {
+  background: #6A407C;
+  min-height: 100vh;
+  color: #3C4858;
+}
+
+.App-header {
+    background: #F8FAFA;
+    padding: 1em;
+    color: #F5BA31;
+    text-align: center;
+}
+
+.App-title {
+  font-size: 2em;
+  margin: 0;
+}
+
+.MadLib{
+    background: #F8FAFA;
+    padding: 2em;
+    width: 90%;
+    max-width: 60em;
+    margin: 4em auto;
+}
+
+.MadLib:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.App-intro{
+    text-align: center;
+    width: 100%;
+}
+
+input{
+    margin: .5em;
+    padding: .5em 1em;
+    float: left;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.button{
+    background: #F5BA31;
+    color: #F8FAFA;
+    border: none;
+    padding: .5em 1em;
+    float: left;
+    clear: left;
+    margin: .5em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
